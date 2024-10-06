@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/logo1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bg">
+    <div class="container text-center" style="margin-top: 100px;">
+        <h1>Job Application Form</h1>
+    </div>
+    <div class="container mt-5 form px-0 " style="width: 100%; ">
+        <form action="">
+            <!-- personal details start-->
+            <div class="my-5 pb-2">
+                <h5 class="bg-h5 text-light w-100 p-2">Personal Information</h5>
+                <div class="row">
+                    <!-- input 1 start-->
+                    <div class="col-12 row px-5 py-2">
+                        <div class="col-2 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">First Name<span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <!-- input 1 end -->
+
+                    <!-- input 2 start-->
+                    <div class="col-12 row px-5 py-2">
+                        <div class="col-2 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Last Name<span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <!-- input 2 end -->
+
+                    <!-- input 3 start-->
+                    <div class="col-12 row px-5 py-2">
+                        <div class="col-2 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Father's Name<span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <!-- input 3 end -->
+
+                    <!-- input 4 start-->
+                    <div class="col-12 row px-5 py-2">
+                        <div class="col-2 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Mother's Name <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <!-- input 4 end -->
+
+                    <!-- input 5 start-->
+                    <div class="col-12 px-5 py-2 d-flex flex-row justify-content-between ">
+                        <div class="col-6 row">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Date of birth <span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8"><input type="date"></div>
+                        </div>
+                        <div class="col-5 row">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Gender <span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-5">
+                                <select class="select" name="gender" id="gender">
+                                    <option value="none" selected disabled hidden>Select</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Others">Others</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- input 5 end -->
+
+                    <!-- input 6 start-->
+                    <div class="col-12 px-5 py-2 d-flex flex-row justify-content-between ">
+                        <div class="col-6 row">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Religion <span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8"><input type="text"></div>
+                        </div>
+                        <div class="col-5 row">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Marital Status <span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-5">
+                                <select class="select" name="gender" id="gender">
+                                    <option value="none" selected disabled hidden>Select</option>
+                                    <option value="Single">Single</option>
+                                    <option value="Married">Married</option>
+                                    <option value="Divorced">Divorced</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- input 6 end -->
+
+                    <!-- input 7 start-->
+                    <div class="col-12 row px-5 py-2">
+                        <div class="col-2 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Phone Number <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="number" placeholder="must give 11 digit"></div>
+                    </div>
+                    <!-- input 7 end -->
+
+                    <!-- input 8 start-->
+                    <div class="col-12 row px-5 py-2">
+                        <div class="col-2 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Email <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="email" placeholder="alex@gmail.com"></div>
+                    </div>
+                    <!-- input 8 end -->
+
+                    <!-- input 9 start-->
+                    <div class="col-12 row px-5 py-2">
+                        <div class="col-2 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Passpot ID <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text" placeholder="give correct passport id"></div>
+                    </div>
+                    <!-- input 9 end -->
+
+                </div>
+            </div>
+            <!-- personal details end-->
+
+            <!--Address part start  -->
+            <div class=" d-flex flex-row justify-content-center w-100">
+                <!--Present Address part start  -->
+                <div class="border border-black p-0 mx-3 w-100">
+                    <h5 class="bg-h5 text-light w-100 p-2">Present Address</h5>
+                    <div class="row">
+                        <!-- input 1 start-->
+                        <div class="col-12 row px-3 py-2">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Care Of<span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8"><input type="text"></div>
+                        </div>
+                        <!-- input 1 end -->
+
+                        <!-- input 2 start-->
+                        <div class="col-12 row px-3 py-2">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Village/Road/Home<span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8"><textarea name="" id="" rows=""></textarea></div>
+                        </div>
+                        <!-- input 2 end -->
+
+                        <!-- input 3 start-->
+                        <div class="col-12 row px-3 py-2">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">District<span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8">
+                                <select class="select" name="gender" id="gender">
+                                    <option value="none" selected disabled hidden>Select</option>
+                                    <option value="Mymensingh">Mymensingh</option>
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Cumilla">Cumilla</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <!-- input 3 end -->
+
+                        <!-- input 4 start-->
+                        <div class="col-12 row px-3 py-2">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Post Office<span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8"><input type="text"></div>
+                        </div>
+                        <!-- input 4 end -->
+
+                        <!-- input 5 start-->
+                        <div class="col-12 row px-3 py-2">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Post Code<span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8"><input type="text"></div>
+                        </div>
+                        <!-- input 5 end -->
+                    </div>
+                </div>
+                <!--present Address part end  -->
+
+                <!--Permanent Address part end  -->
+                <div class=" border border-black p-0 mx-3 w-100">
+                    <h5 class="bg-h5 text-light w-100 p-2">Permanent Address <span class="pt-5"><input class="checkbox"
+                                type="checkbox"></span> <span style="color: rgb(196, 188, 188); font-size:15px;">same as
+                            present address</span></h5>
+                    <form action="" row>
+                        <!-- input 1 start-->
+                        <div class="col-12 row px-3 py-2">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Care Of<span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8"><input type="text"></div>
+                        </div>
+                        <!-- input 1 end -->
+
+                        <!-- input 2 start-->
+                        <div class="col-12 row px-3 py-2">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Village/Road/Home<span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8"><textarea name="" id="" rows=""></textarea></div>
+                        </div>
+                        <!-- input 2 end -->
+
+                        <!-- input 3 start-->
+                        <div class="col-12 row px-3 py-2">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">District<span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8">
+                                <select class="select" name="gender" id="gender">
+                                    <option value="none" selected disabled hidden>Select</option>
+                                    <option value="Mymensingh">Mymensingh</option>
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Cumilla">Cumilla</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <!-- input 3 end -->
+
+                        <!-- input 4 start-->
+                        <div class="col-12 row px-3 py-2">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Post Office<span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8"><input type="text"></div>
+                        </div>
+                        <!-- input 4 end -->
+
+                        <!-- input 5 start-->
+                        <div class="col-12 row px-3 py-2">
+                            <div class="col-4 d-flex flex-row justify-content-between">
+                                <h5 class="text-h4">Post Code<span>*</span></h5>
+                                <h5 class="text-h4">:</h5>
+                            </div>
+                            <div class="col-8"><input type="text"></div>
+                        </div>
+                        <!-- input 5 end -->
+                    </form>
+                </div>
+                <!--Permanent Address part end  -->
+
+            </div>
+            <!--Address part start  -->
+
+            <!-- Education start -->
+            <div class="pt-5 px-4">
+                <h5 style="font-size: 30px; color: #185519; font-weight: bold;"><u>EDUCATION QUALIFICATION</u></h5>
+            </div>
+            <!-- HSC exam details start -->
+            <div class="m-3 border border-black">
+                <h5 class="bg-h5 text-light w-100 p-2">HSC or Equivalent Lavel</h5>
+                <div class="row">
+                </div>
+                <!-- input 1 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row gap-2 justify-content-between ">
+                    <div class="col-6 row ">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Examination <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <div class="col-6 row">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Board <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- input 1 end -->
+
+                <!-- input 2 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row gap-2 justify-content-between ">
+                    <div class="col-6 row ">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Roll No <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <div class="col-6 row">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Result<span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- input 2 end -->
+
+                <!-- input 3 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row gap-2 justify-content-between ">
+                    <div class="col-6 row ">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Group/Subject <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <div class="col-6 row">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Passing Year <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- input 3 end -->
+            </div>
+            <!-- HSC exam details start -->
+
+            <!-- BSC exam details start -->
+            <div class="m-3 mt-4 border border-black">
+                <h5 class="bg-h5 text-light w-100 p-2">BSC or Equivalent Lavel</h5>
+                <div class="row">
+                </div>
+                <!-- input 1 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row gap-2 justify-content-between ">
+                    <div class="col-6 row ">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Examination <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <div class="col-6 row">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Board <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- input 1 end -->
+
+                <!-- input 2 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row gap-2 justify-content-between ">
+                    <div class="col-6 row ">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Roll No <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <div class="col-6 row">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Result<span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- input 2 end -->
+
+                <!-- input 3 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row gap-2 justify-content-between ">
+                    <div class="col-6 row ">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Group/Subject <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <div class="col-6 row">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Passing Year <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- input 3 end -->
+            </div>
+            <!-- BSC exam details start -->
+
+            <!-- MSC exam details start -->
+            <div class="m-3 mt-4 border border-black">
+                <h5 class="bg-h5 text-light w-100 p-2">MSC or Equivalent Lavel</h5>
+                <div class="row">
+                </div>
+                <!-- input 1 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row gap-2 justify-content-between ">
+                    <div class="col-6 row ">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Examination <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <div class="col-6 row">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Board <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- input 1 end -->
+
+                <!-- input 2 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row gap-2 justify-content-between ">
+                    <div class="col-6 row ">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Roll No <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <div class="col-6 row">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Result<span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- input 2 end -->
+
+                <!-- input 3 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row gap-2 justify-content-between ">
+                    <div class="col-6 row ">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Group/Subject <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <div class="col-6 row">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Passing Year <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- input 3 end -->
+            </div>
+            <!-- MSC exam details start -->
+            <!-- Education end -->
+
+            <!-- Applicable start -->
+            <div class="m-3 mt-4 border border-black">
+                <h5 class="bg-h5 text-light w-100 p-2">Job Experience</h5>
+                <h5 class="text-light w-100 p-2"><span><input class="checkbox" type="checkbox" name=""
+                            id=""></span><span style="color: rgb(23, 106, 23); margin-left: 5px; font-weight: bold;">if
+                        applicable</span></h5>
+                <div class="row">
+                </div>
+                <!-- input 1 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row gap-2 justify-content-between ">
+                    <div class="col-6 row ">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Employee On<span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <div class="col-6 row">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Organization <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- input 1 end -->
+
+                <!-- input 2 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row justify-content-between ">
+                    <div class="col-6 row ">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Designation Port <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9"><input type="text"></div>
+                    </div>
+                    <div class="col-6 row">
+                        <div class="col-3 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Address<span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-9">
+                            <textarea name="" id="" rows="2"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!-- input 2 end -->
+
+                <!-- input 3 start-->
+                <div class="col-12 row px-2  w-100">
+                    <div class="col-2 d-flex flex-row ">
+                        <h5 class="text-h4">Length of Services<span>*</span></h5>
+                        <h5 class="text-h4" style="padding-left: 3px;">:</h5>
+                    </div>
+                    <div class="col-10 d-flex flex-row row">
+                        <div class="col-5">
+                            <input type="date">
+                        </div>
+                        <div class="col-1 text-center">
+                            <p style="font-size: 20px;">to</p>
+                        </div>
+                        <div class="col-5">
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 row px-2  mb-3 w-100" style="padding-top: -10px;">
+                    <div class="col-2 d-flex flex-row "></div>
+                    <div class="col-10 d-flex flex-row row">
+                        <h5 class="text-light w-100"><span><input class="checkbox" type="checkbox" name=""
+                                    id=""></span><span style="color: rgb(23, 106, 23); margin-left: 5px">current
+                                working</span></h5>
+                    </div>
+                </div>
+                <!-- input 3 end -->
+
+                <!-- input 4 start-->
+                <div class="col-12 px-2 py-2 d-flex flex-row gap-2 justify-content-between ">
+                    <div class="col-12 row ">
+                        <div class="col-2 d-flex flex-row justify-content-between">
+                            <h5 class="text-h4">Job Description <span>*</span></h5>
+                            <h5 class="text-h4">:</h5>
+                        </div>
+                        <div class="col-10"><textarea name="" id="" rows="2"></textarea></div>
+                    </div>
+
+                </div>
+                <!-- input 3 end -->
+            </div>
+            <!-- Applicable End -->
+
+            <!-- Upload image start -->
+            <div class="m-4 border border-black" style="width: 50%; ">
+                <div class="mb-3">
+                    <h5 style="font-size: 20px;" class="bg-h5 text-light w-100 p-2">Upload Image</h5>
+                </div>
+                <div class="p-2"><input type="file" name="" id=""></div>
+            </div>
+            <!-- Upload image end -->
+
+            <!-- Declaration start -->
+            <div class="px-4 w-75 d-flex">
+                <div><span><input class="checkbox" type="checkbox" name="" id=""></span> </div>
+                <p style="font-size: 17px; font-weight: bold; color: #185519;" class="px-2">
+                    I declare that the Information
+                    provide above correct,true and complete to the best of my knowledge and belief and I would like to
+                    go to the next step.
+                </p>
+            </div>
+            <!-- Declaration end -->
+
+            <!-- sign start -->
+            <div class="px-4 my-5">
+                <div style="width: 20%;">
+                    <input class="bg-transparent py-4" type="text" name="" id="">
+                </div>
+                <div
+                    style="border-top: 2px solid #185519;width: 20%;margin: 3px 0; text-align: center; font-size: 16px; font-weight: bold;">
+                    Sign</div>
+            </div>
+            <!-- sign end -->
+
+            <!-- submit button start-->
+            <div>
+                <button class="w-100 py-1 form-btn">
+                    Submit
+                </button>
+            </div>
+            <!-- submit button end-->
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
