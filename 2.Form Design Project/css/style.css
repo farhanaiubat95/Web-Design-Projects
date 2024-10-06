@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+   height:100vh;
+   width:100vw;
+   background:#E9EFEC;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color:#185519;
+}
+.bg-h5{
+    background:#185519;
+}
+.form{
+    background:#B7B7B7;
+    padding-bottom:10px
+}
+.text-h4{
+    font-size:18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding:6px 0 6px 0;
+}
+span{
+    color:#B8001F;
+}
+input{
+    width:100%;
+    font-size:10px;
+    font-weight:500;
+    border:2px solid #758694;
+    padding:4.5px;
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+input:hover{
+    border:2px solid #185519;
+    box-shadow: #185519 1.95px 1.95px 2.6px;
+}
+.checkbox{
+    width:20px;
+    height:14px;
+    padding:0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px; 
+}
+
+textarea{
+    width:100%;
+    font-size:10px;
+    font-weight:500;
+    border:2px solid #758694;
+    padding:4.5px;
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+textarea:hover{
+    border:2px solid #185519;
+    box-shadow: #185519 1.95px 1.95px 2.6px;
+}
+.select{
+    width:100%;
+    font-size:10px;
+    font-weight:500;
+    border:2px solid #758694;
+    padding:4.5px;
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.select:hover{
+    border:2px solid #185519;
+    box-shadow: #185519 1.95px 1.95px 2.6px;
+}
+.form-btn{
+    background:#185519;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border:2px solid #00712D;
+}
+.form-btn:hover{
+    background:#00712D;
+    border:2px solid #185519;
+    box-shadow: #185519 1.95px 1.95px 2.6px;
+}
